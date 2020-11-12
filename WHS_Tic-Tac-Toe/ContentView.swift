@@ -126,10 +126,26 @@ struct Home : View {
             msg = "Player 1 Wins!"
             gameOver.toggle()
         }
-        if checkMoves(player: "O")
+        else if checkMoves(player: "O")
         {
             msg = "Player 2 Wins!"
             gameOver.toggle()
+        }
+        
+        else
+        {
+            //Checking For No Moves Left
+            
+            let status = moves.contains { (value) -> Bool in
+                
+                return value == ""
+            }
+            
+            if !status
+            {
+                msg = "You Have Tied!"
+                gameOver.toggle()
+            }
         }
     }
     
@@ -146,6 +162,32 @@ struct Home : View {
                 return true
             }
         }
+        
+        // Vertical Moves
+        
+        for i in 0...2{
+        
+            if moves[i] == player && moves[i+3] == player && moves [i+6] ==
+                player{
+                
+                return true
+            }
+        }
+        
+        //Checking Diagonally
+        
+        if moves[0] == player && moves[4] == player && moves [8] ==
+            player{
+            
+            return true
+        }
+        
+        if moves[2] == player && moves[4] == player && moves [6] ==
+            player{
+            
+            return true
+        }
+        
         return false
     }
 }
