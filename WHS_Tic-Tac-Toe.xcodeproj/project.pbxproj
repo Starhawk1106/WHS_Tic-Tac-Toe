@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F292A129255CEDB00044E0E4 /* WHS_Tic_Tac_ToeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F292A128255CEDB00044E0E4 /* WHS_Tic_Tac_ToeApp.swift */; };
+		F292A12B255CEDB00044E0E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F292A12A255CEDB00044E0E4 /* ContentView.swift */; };
+		F292A12D255CEDB20044E0E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F292A12C255CEDB20044E0E4 /* Assets.xcassets */; };
+		F292A130255CEDB20044E0E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F292A12F255CEDB20044E0E4 /* Preview Assets.xcassets */; };
+		F292A13B255CEDB20044E0E4 /* WHS_Tic_Tac_ToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F292A13A255CEDB20044E0E4 /* WHS_Tic_Tac_ToeTests.swift */; };
+		F292A146255CEDB20044E0E4 /* WHS_Tic_Tac_ToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F292A145255CEDB20044E0E4 /* WHS_Tic_Tac_ToeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F292A137255CEDB20044E0E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F292A11D255CEDB00044E0E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F292A124255CEDB00044E0E4;
+			remoteInfo = "WHS_Tic-Tac-Toe";
+		};
+		F292A142255CEDB20044E0E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F292A11D255CEDB00044E0E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F292A124255CEDB00044E0E4;
+			remoteInfo = "WHS_Tic-Tac-Toe";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F292A125255CEDB00044E0E4 /* WHS_Tic-Tac-Toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WHS_Tic-Tac-Toe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F292A128255CEDB00044E0E4 /* WHS_Tic_Tac_ToeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHS_Tic_Tac_ToeApp.swift; sourceTree = "<group>"; };
+		F292A12A255CEDB00044E0E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F292A12C255CEDB20044E0E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F292A12F255CEDB20044E0E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F292A131255CEDB20044E0E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F292A136255CEDB20044E0E4 /* WHS_Tic-Tac-ToeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WHS_Tic-Tac-ToeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F292A13A255CEDB20044E0E4 /* WHS_Tic_Tac_ToeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHS_Tic_Tac_ToeTests.swift; sourceTree = "<group>"; };
+		F292A13C255CEDB20044E0E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F292A141255CEDB20044E0E4 /* WHS_Tic-Tac-ToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WHS_Tic-Tac-ToeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F292A145255CEDB20044E0E4 /* WHS_Tic_Tac_ToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHS_Tic_Tac_ToeUITests.swift; sourceTree = "<group>"; };
+		F292A147255CEDB20044E0E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F292A122255CEDB00044E0E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F292A133255CEDB20044E0E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F292A13E255CEDB20044E0E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F292A11C255CEDB00044E0E4 = {
+			isa = PBXGroup;
+			children = (
+				F292A127255CEDB00044E0E4 /* WHS_Tic-Tac-Toe */,
+				F292A139255CEDB20044E0E4 /* WHS_Tic-Tac-ToeTests */,
+				F292A144255CEDB20044E0E4 /* WHS_Tic-Tac-ToeUITests */,
+				F292A126255CEDB00044E0E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F292A126255CEDB00044E0E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F292A125255CEDB00044E0E4 /* WHS_Tic-Tac-Toe.app */,
+				F292A136255CEDB20044E0E4 /* WHS_Tic-Tac-ToeTests.xctest */,
+				F292A141255CEDB20044E0E4 /* WHS_Tic-Tac-ToeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F292A127255CEDB00044E0E4 /* WHS_Tic-Tac-Toe */ = {
+			isa = PBXGroup;
+			children = (
+				F292A128255CEDB00044E0E4 /* WHS_Tic_Tac_ToeApp.swift */,
+				F292A12A255CEDB00044E0E4 /* ContentView.swift */,
+				F292A12C255CEDB20044E0E4 /* Assets.xcassets */,
+				F292A131255CEDB20044E0E4 /* Info.plist */,
+				F292A12E255CEDB20044E0E4 /* Preview Content */,
+			);
+			path = "WHS_Tic-Tac-Toe";
+			sourceTree = "<group>";
+		};
+		F292A12E255CEDB20044E0E4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F292A12F255CEDB20044E0E4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F292A139255CEDB20044E0E4 /* WHS_Tic-Tac-ToeTests */ = {
+			isa = PBXGroup;
+			children = (
+				F292A13A255CEDB20044E0E4 /* WHS_Tic_Tac_ToeTests.swift */,
+				F292A13C255CEDB20044E0E4 /* Info.plist */,
+			);
+			path = "WHS_Tic-Tac-ToeTests";
+			sourceTree = "<group>";
+		};
+		F292A144255CEDB20044E0E4 /* WHS_Tic-Tac-ToeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F292A145255CEDB20044E0E4 /* WHS_Tic_Tac_ToeUITests.swift */,
+				F292A147255CEDB20044E0E4 /* Info.plist */,
+			);
+			path = "WHS_Tic-Tac-ToeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F292A124255CEDB00044E0E4 /* WHS_Tic-Tac-Toe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F292A14A255CEDB20044E0E4 /* Build configuration list for PBXNativeTarget "WHS_Tic-Tac-Toe" */;
+			buildPhases = (
+				F292A121255CEDB00044E0E4 /* Sources */,
+				F292A122255CEDB00044E0E4 /* Frameworks */,
+				F292A123255CEDB00044E0E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WHS_Tic-Tac-Toe";
+			productName = "WHS_Tic-Tac-Toe";
+			productReference = F292A125255CEDB00044E0E4 /* WHS_Tic-Tac-Toe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F292A135255CEDB20044E0E4 /* WHS_Tic-Tac-ToeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F292A14D255CEDB20044E0E4 /* Build configuration list for PBXNativeTarget "WHS_Tic-Tac-ToeTests" */;
+			buildPhases = (
+				F292A132255CEDB20044E0E4 /* Sources */,
+				F292A133255CEDB20044E0E4 /* Frameworks */,
+				F292A134255CEDB20044E0E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F292A138255CEDB20044E0E4 /* PBXTargetDependency */,
+			);
+			name = "WHS_Tic-Tac-ToeTests";
+			productName = "WHS_Tic-Tac-ToeTests";
+			productReference = F292A136255CEDB20044E0E4 /* WHS_Tic-Tac-ToeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F292A140255CEDB20044E0E4 /* WHS_Tic-Tac-ToeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F292A150255CEDB20044E0E4 /* Build configuration list for PBXNativeTarget "WHS_Tic-Tac-ToeUITests" */;
+			buildPhases = (
+				F292A13D255CEDB20044E0E4 /* Sources */,
+				F292A13E255CEDB20044E0E4 /* Frameworks */,
+				F292A13F255CEDB20044E0E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F292A143255CEDB20044E0E4 /* PBXTargetDependency */,
+			);
+			name = "WHS_Tic-Tac-ToeUITests";
+			productName = "WHS_Tic-Tac-ToeUITests";
+			productReference = F292A141255CEDB20044E0E4 /* WHS_Tic-Tac-ToeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F292A11D255CEDB00044E0E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					F292A124255CEDB00044E0E4 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					F292A135255CEDB20044E0E4 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = F292A124255CEDB00044E0E4;
+					};
+					F292A140255CEDB20044E0E4 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = F292A124255CEDB00044E0E4;
+					};
+				};
+			};
+			buildConfigurationList = F292A120255CEDB00044E0E4 /* Build configuration list for PBXProject "WHS_Tic-Tac-Toe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F292A11C255CEDB00044E0E4;
+			productRefGroup = F292A126255CEDB00044E0E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F292A124255CEDB00044E0E4 /* WHS_Tic-Tac-Toe */,
+				F292A135255CEDB20044E0E4 /* WHS_Tic-Tac-ToeTests */,
+				F292A140255CEDB20044E0E4 /* WHS_Tic-Tac-ToeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F292A123255CEDB00044E0E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F292A130255CEDB20044E0E4 /* Preview Assets.xcassets in Resources */,
+				F292A12D255CEDB20044E0E4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F292A134255CEDB20044E0E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F292A13F255CEDB20044E0E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F292A121255CEDB00044E0E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F292A12B255CEDB00044E0E4 /* ContentView.swift in Sources */,
+				F292A129255CEDB00044E0E4 /* WHS_Tic_Tac_ToeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F292A132255CEDB20044E0E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F292A13B255CEDB20044E0E4 /* WHS_Tic_Tac_ToeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F292A13D255CEDB20044E0E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F292A146255CEDB20044E0E4 /* WHS_Tic_Tac_ToeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F292A138255CEDB20044E0E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F292A124255CEDB00044E0E4 /* WHS_Tic-Tac-Toe */;
+			targetProxy = F292A137255CEDB20044E0E4 /* PBXContainerItemProxy */;
+		};
+		F292A143255CEDB20044E0E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F292A124255CEDB00044E0E4 /* WHS_Tic-Tac-Toe */;
+			targetProxy = F292A142255CEDB20044E0E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F292A148255CEDB20044E0E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F292A149255CEDB20044E0E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F292A14B255CEDB20044E0E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WHS_Tic-Tac-Toe/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "WHS_Tic-Tac-Toe/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WillStanley.WHS-Tic-Tac-Toe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F292A14C255CEDB20044E0E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WHS_Tic-Tac-Toe/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "WHS_Tic-Tac-Toe/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WillStanley.WHS-Tic-Tac-Toe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F292A14E255CEDB20044E0E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WHS_Tic-Tac-ToeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WillStanley.WHS-Tic-Tac-ToeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WHS_Tic-Tac-Toe.app/WHS_Tic-Tac-Toe";
+			};
+			name = Debug;
+		};
+		F292A14F255CEDB20044E0E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WHS_Tic-Tac-ToeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WillStanley.WHS-Tic-Tac-ToeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WHS_Tic-Tac-Toe.app/WHS_Tic-Tac-Toe";
+			};
+			name = Release;
+		};
+		F292A151255CEDB20044E0E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WHS_Tic-Tac-ToeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WillStanley.WHS-Tic-Tac-ToeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WHS_Tic-Tac-Toe";
+			};
+			name = Debug;
+		};
+		F292A152255CEDB20044E0E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WHS_Tic-Tac-ToeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WillStanley.WHS-Tic-Tac-ToeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WHS_Tic-Tac-Toe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F292A120255CEDB00044E0E4 /* Build configuration list for PBXProject "WHS_Tic-Tac-Toe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F292A148255CEDB20044E0E4 /* Debug */,
+				F292A149255CEDB20044E0E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F292A14A255CEDB20044E0E4 /* Build configuration list for PBXNativeTarget "WHS_Tic-Tac-Toe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F292A14B255CEDB20044E0E4 /* Debug */,
+				F292A14C255CEDB20044E0E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F292A14D255CEDB20044E0E4 /* Build configuration list for PBXNativeTarget "WHS_Tic-Tac-ToeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F292A14E255CEDB20044E0E4 /* Debug */,
+				F292A14F255CEDB20044E0E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F292A150255CEDB20044E0E4 /* Build configuration list for PBXNativeTarget "WHS_Tic-Tac-ToeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F292A151255CEDB20044E0E4 /* Debug */,
+				F292A152255CEDB20044E0E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F292A11D255CEDB00044E0E4 /* Project object */;
+}
